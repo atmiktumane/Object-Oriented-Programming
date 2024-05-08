@@ -9,6 +9,8 @@ interface Client{ // Client's Requirements
 class Implementation implements Client{ // Implementation details are hidden from users
     String name;
     Double salary;
+
+    @Override
     public void input(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter UserName: ");
