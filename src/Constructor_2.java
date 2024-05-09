@@ -15,15 +15,15 @@ class Const{
 
 }
 
-class A{
+class A1{
     int x, y;
 
-    A(int a, int b){ // parameterized constructor
+    A1(int a, int b){ // parameterized constructor
         x = a;
         y = b;
     }
 
-    A(int a, String c){
+    A1(int a, String c){
         System.out.println(a + " " + c);
     }
 
@@ -113,10 +113,10 @@ public class Constructor_2 {
 //        myObj.display();
 
         // Parameterized Constructor
-//        A obj1 = new A(10, 22);
+//        A1 obj1 = new A1(10, 22);
 //        obj1.display();
 //
-//        A obj2 = new A(10, "atmik");
+//        A1 obj2 = new A1(10, "atmik");
 
 
         // Copy Constructor
