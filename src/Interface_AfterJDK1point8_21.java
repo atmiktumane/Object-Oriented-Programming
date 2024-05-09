@@ -1,5 +1,5 @@
 
-/*  Default Method in Interface */
+/*  Default Method And Static Method in Interface */
 
 // Before JDK 1.8, Interface could only contain Abstract Method
 // But due to some reason, Changes were made and After JDK 1.8, Interface can have Abstract Method + Default Method + Static Method
@@ -10,6 +10,8 @@
 
 // Note: static method in interface don't need Implementing Classes or object, Static method can directly be accessed in our main() method.
 // If interface only have static method , then no need of implementing class , we can directly access Static method from interface in our main() method.
+
+// Note: Private Methods in Interface can only be accessed using Default Method or Static Method
 interface A{
     void a1(); // public + abstract
     void a2(); // public + abstract
