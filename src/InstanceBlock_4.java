@@ -8,17 +8,17 @@ class InstancePractice{
 
     {
         a=30; b=44;
-        System.out.println(a+ " "+ b);
+        System.out.println("Instance Block : "+ a+ " "+ b);
     }
 
     InstancePractice(){ // Default Constructor
         a=11; b=22;
-        System.out.println(a+ " "+ b);
+        System.out.println("Default Constructor : " +a+ " "+ b);
     }
 
     void display(){
         a=88; b=99;
-        System.out.println(a+ " "+ b);
+        System.out.println("Method : " + a+ " "+ b);
     }
 }
 
